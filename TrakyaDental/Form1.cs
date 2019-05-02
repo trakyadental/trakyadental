@@ -16,5 +16,16 @@ namespace TrakyaDental
         {
             InitializeComponent();
         }
+
+        
+        private void btnMinimize_Click(object sender, EventArgs e)
+        {
+            ActiveForm.WindowState = FormWindowState.Minimized;
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Dispose();
+        }
     }
 }
