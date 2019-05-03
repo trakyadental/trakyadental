@@ -31,7 +31,7 @@ namespace TrakyaDental
         {
             ActiveForm.Dispose();
         }
-        
+        /*
         private void panel1_MouseMove(object sender, MouseEventArgs e)
         {
             if (mouseDown)
@@ -48,18 +48,10 @@ namespace TrakyaDental
             mouseDown = false;
         }
 
-        private void pbHastaIslemleri_Click(object sender, EventArgs e)
-        {
-            var hastaIslemForm = new HastaIslemleri();
-            
-            
-            hastaIslemForm.ShowDialog();
-        }
-
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             mouseDown = true;
             lastLocation = e.Location;
-        }
+        }*/
     }
 }

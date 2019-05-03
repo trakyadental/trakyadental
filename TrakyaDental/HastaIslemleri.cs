@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace TrakyaDental
 {
-    public partial class Form1 : Form
+    public partial class HastaIslemleri : Form
     {
 
         int mouseX = 0, mouseY = 0;
         bool mouseDown;
         Point lastLocation;
-        public Form1()
+        public HastaIslemleri()
         {
             InitializeComponent();
         }
@@ -48,13 +48,7 @@ namespace TrakyaDental
             mouseDown = false;
         }
 
-        private void pbHastaIslemleri_Click(object sender, EventArgs e)
-        {
-            var hastaIslemForm = new HastaIslemleri();
-            
-            
-            hastaIslemForm.ShowDialog();
-        }
+       
 
         private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
