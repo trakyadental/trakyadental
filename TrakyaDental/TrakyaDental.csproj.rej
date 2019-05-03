@@ -1,0 +1,30 @@
+diff a/TrakyaDental/TrakyaDental.csproj b/TrakyaDental/TrakyaDental.csproj	(rejected hunks)
+@@ -84,17 +84,20 @@
+     </Compile>
+     <Compile Include="Program.cs" />
+     <Compile Include="Properties\AssemblyInfo.cs" />
+-    <Compile Include="YeniForm.cs">
+-      <SubType>Form</SubType>
+-    </Compile>
+-    <Compile Include="YeniForm.Designer.cs">
+-      <DependentUpon>YeniForm.cs</DependentUpon>
+-    </Compile>
+     <EmbeddedResource Include="Deneme.resx">
+       <DependentUpon>Deneme.cs</DependentUpon>
+     </EmbeddedResource>
+-    <EmbeddedResource Include="HastaIslemleri.resx">
+-      <DependentUpon>HastaIslemleri.cs</DependentUpon>
++    <EmbeddedResource Include="HastaIslemler\HastaEkle.resx">
++      <DependentUpon>HastaEkle.cs</DependentUpon>
++    </EmbeddedResource>
++    <EmbeddedResource Include="HastaIslemler\HastaGoruntuleEkle.resx">
++      <DependentUpon>HastaGoruntuleEkle.cs</DependentUpon>
++    </EmbeddedResource>
++    <EmbeddedResource Include="StokIslemleri.resx">
++      <DependentUpon>StokIslemleri.cs</DependentUpon>
++    </EmbeddedResource>
++    <EmbeddedResource Include="HastaIslemler\HastaIslemEkran.resx">
++      <DependentUpon>HastaIslemEkran.cs</DependentUpon>
+     </EmbeddedResource>
+     <EmbeddedResource Include="Form1.resx">
+       <DependentUpon>Form1.cs</DependentUpon>
