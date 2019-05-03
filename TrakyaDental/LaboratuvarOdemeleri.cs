@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TrakyaDental
 {
-    public partial class Deneme : UserControl
+    public partial class LaboratuvarOdemeleri : UserControl
     {
-        public Deneme()
+        public LaboratuvarOdemeleri()
         {
             InitializeComponent();
         }
